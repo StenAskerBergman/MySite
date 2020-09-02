@@ -167,8 +167,8 @@
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKR698B"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- End Google Tag Manager (noscript) -->
-      <div class=".container-fluid">
-      <div class=".container-sm">
+      <div class="container-fluid">
+      <div class="container-sm">
       <nav class="container p-3 my-3">
          <!-- nav bar -->
          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -176,16 +176,13 @@
                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link disabled" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"></a>
+               <a class="nav-link" id="pills-gallery-tab" data-toggle="pill" href="#pills-gallery" role="tab" aria-controls="pills-gallery" aria-selected="false">Portfolio</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="pills-About-tab" data-toggle="pill" href="#pills-About" role="tab" aria-controls="pills-About" aria-selected="false">About</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Contact</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link disabled" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"></a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" id="pills-gallery-tab" data-toggle="pill" href="#pills-gallery" role="tab" aria-controls="pills-gallery" aria-selected="false">Portfolio</a>
             </li>
          </ul>
          <!--php // go to top function -->
@@ -214,6 +211,8 @@
       </nav>
       <div class="tab-content" id="pills-tabContent">
          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+            <!-- Introduction --> <!-- Options --> <!-- First -->
             <div class="container p-3 my-3">
                <!-- Name and Title -->
                <h1>Sten Asker Bergman</h1>
@@ -226,8 +225,6 @@
                   User Experience Designer and Ex-Programmer interested in coding prototypes and creating awesome products. I work from a lifelong love for design + tech, and a resolute desire to help others.
                </p>
             </div>
-            <!-- Introduction --> <!-- Options --> <!-- First -->
-
       <!--php // First Page - Post Content -->
             <div class="container" style="background-color: var(--shift-bg-color);">
                <!-- content -->
@@ -319,102 +316,120 @@
             <div class="container p-3 my-3">
                <!-- content -->
                <div class="row">
-                  <div class="col">
-                    <div style="padding-top:1em;">
+                  <div class="col-12">
+                    <div>
                       <h3>Hi, I don't think we have met!</h1><h4> <br>
-                      Do you have time for a virtual coffee? ☕<br><br>
-                      I would love to get to know you better! 😊<br><br>
+                      Do you have time for a virtual coffee? ☕ <br><br>
+                      I would be Awesome! If I could get to know you better! 😊<br><br>
                     </h4>
                   </div>
                   </div>
-                  <div class="col">
-                  <h2>Here Are My Socials!</h2>
-                  <ul style="list-style-type: none;">
-                    <style media="screen">
-                      li{
-                        padding: 0.5em;
-                      }
-                    </style>
-                    <li><a href="https://www.linkedin.com/in/stenaskerbergman/"><button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button></a></li>
-                    <li><a href="https://dribbble.com/"><button type="button" class="btn btn-sm btn-outline-secondary">Dribbble</button></a></li>
-                    <li><a href="https://www.facebook.com/profile.html?id=100012699664738&sk=archive"><button type="button" class="btn btn-sm btn-outline-secondary">Facebook</button></a></li>
-                    <li><a href="mailto:stenaskerbergman@gmail.com"><button type="button" class="btn btn-sm btn-outline-secondary">Email</button></a></li>
-                  </ul>
-                  </div>
+
+               </div>
+               <div class="row">
+                 <div class="col">
+
+                 </div>
+                 <div class="col-12">
+                   <form href="mailto:stenaskerbergman@gmail.com" action="mailto:stenaskerbergman@gmail.com" aria-describedby="Email Form to contact me thru!">
+                     <div class="form-row">
+                       <div class="form-group col-md-5">
+                          <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
+
+                       </div>
+                       <div class="form-group col-md-3">
+                         <label for="inputPassword4">Name</label>
+                         <input type="text" class="form-control" id="inputName4" placeholder="Your name">
+                       </div>
+                       </div>
+                       <div class="form-group col-md-8"  style="padding:0em;">
+                         <label for="exampleInputPassword1">Message</label>
+                         <textarea rows="6" class="form-control" placeholder="Let me know how can I help you?"></textarea>
+                       </div>
+                        <div class="form-row">
+                          <div class="form group col-md-3">
+
+
+                          <button type="submit" class="btn btn-primary">Send</button></div>
+                          <small id="emailHelp" class="form-text text-muted"> I'll never share your email or details with anyone else .</small>
+
+                        </div>
+                      </form>
+                 </div>
+                 <div class="col">
+
+                 </div>
                </div>
             </div>
          </div>
       <!--php // Third page - Portfolio -->
-         <div class="tab-pane fade" id="pills-gallery" role="tabpanel" aria-labelledby="pills-gallery-tab">
-           <div class="container p-3 my-3">
-             <nav id="navbar-example2" class="navbar navbar-light bg-light"  style="background-color: #9b9b9b; border-radius: 15px 15px 15px 15px;">
-               <a class="navbar-brand" href="#">Bruh Moments</a>
-               <ul class="nav nav-pills">
-                 <li class="nav-item">
-                   <a class="nav-link" href="#fat">@fat</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link" href="#mdo">@mdo</a>
-                 </li>
-                 <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="#one">one</a>
-                     <a class="dropdown-item" href="#two">two</a>
-                     <div role="separator" class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="#three">three</a>
-                   </div>
-                 </li>
-               </ul>
-             </nav>
-             <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-               <h4 id="fat"></h4>
-               <div class="my-3 p-3">
-                 <h2 class="display-5">Another headline</h2>
-                 <p class="lead">And an even wittier subheading.</p>
-               </div>
-               <div class="bg-dark shadow-sm mx-auto" src="\img\CafeConcept.png" style="width: 100%; height: 300px; border-radius: 21px 21px 21px 21px; background:;" ></div>
-               <h4 id="mdo"></h4>
-               <div class="col-md-12">
-                 <p>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 </p>
-               </div>
-               <div class="my-3 p-3">
-                 <h2 class="display-5">Cafe Concept</h2>
-                 <p class="lead">And an even wittier take on coffee</p>
-               </div>
-               <div class="bg-dark shadow-sm mx-auto" href="img\Cafe_Concept.png" style="width: 100%; height: 300px; border-radius: 21px 21px 21px 21px; background:;" ></div>
-               <h4 id="one"></h4>
-               <div class="my-3 p-3">
-                 <h2 class="display-5">Another headline</h2>
-                 <p class="lead">And an even wittier subheading.</p>
-               </div>
-               <div class="bg-dark shadow-sm mx-auto" href="img\CafeConcept.png" style="width: 100%; height: 300px; border-radius: 21px 21px 21px 21px; background:;" ></div>
-               <h4 id="two"></h4>
-               <div class="my-3 p-3">
-                 <h2 class="display-5">Another headline</h2>
-                 <p class="lead">And an even wittier subheading.</p>
-               </div>
-               <div class="bg-dark shadow-sm mx-auto" href="img\CafeConcept.png" style="width: 100%; height: 300px; border-radius: 21px 21px 21px 21px; background:;" ></div>
-               <h4 id="three"></h4>
 
+         <div class="tab-pane fade" id="pills-gallery" role="tabpanel" aria-labelledby="pills-gallery-tab">
+
+
+           <div class="row" >
+             <div class="col-6" style="padding:0px;">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
              </div>
-                 <div class="my-3 p-3">
-                   <h2 class="display-5">Another headline</h2>
-                   <p class="lead">And an even wittier subheading.</p>
-                 </div>
-                   <br>
-                 <div class="bg-dark shadow-sm mx-auto" style="width: 100%; height: 300px; border-radius: 21px 21px 21px 21px;"></div>
-                 <div class="my-3 p-3">
-                   <h2 class="display-5">the last headline</h2>
-                   <p class="lead">And the wittiest subheading.</p>
-                 </div>
+             <div class="col-6" style="padding:0px;">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+             </div>
+             <div class="col-6" style="padding:0px;">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+             </div>
+             <div class="col-6" style="padding:0px;">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+               <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" id="boxy" class="img-fluid" alt="Responsive image">
+             </div>
+            </div>
+     </div>
+         <div class="tab-pane fade" id="pills-About" role="tabpanel" aria-labelledby="pills-About-tab">
+           <!-- Introduction --> <!-- Options --> <!-- First -->
+           <div class="container p-3 my-3">
+             <div class="row">
+               <div class="col-4">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Poster-sized_portrait_of_Barack_Obama.jpg" class="img-fluid" alt="Obama">
+               </div>
+              <div class="col-6">
+                <!-- Name and Title -->
+                <h1>Sten Asker Bergman</h1>
+                <!-- Main Title -->
+                <h2>UXD by day / DEV by Night</h2>
+                <!-- Sub Title -->
+
+                <!-- text font-weight: 300 thinn , 500 normal, 700 thicc, 900 thiccc -->
+                <p style="font-size: 30px; font-weight: 300;">
+                   User Experience Designer and Ex-Programmer interested in coding prototypes and creating awesome products. I work from a lifelong love for design + tech, and a resolute desire to help others.
+                </p>
+              </div>
+              <div class="col">
+              <h2>Here Are My Socials!</h2>
+              <ul style="list-style-type: none;">
+                <style media="screen">
+                  li{
+                    padding: 0.5em;
+                  }
+                </style>
+                <li><a href="https://www.linkedin.com/in/stenaskerbergman/"><button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button></a></li>
+                <li><a href="https://dribbble.com/"><button type="button" class="btn btn-sm btn-outline-secondary">Dribbble</button></a></li>
+                <li><a href="https://www.facebook.com/profile.html?id=100012699664738&sk=archive"><button type="button" class="btn btn-sm btn-outline-secondary">Facebook</button></a></li>
+                <li><a href="mailto:stenaskerbergman@gmail.com"><button type="button" class="btn btn-sm btn-outline-secondary">Email</button></a></li>
+              </ul>
+              </div>
+
+
+              </div>
+
            </div>
-         </div>
+
+        </div>
       </div>
+    </div>
+</div>
+
    </body>
 </html>
