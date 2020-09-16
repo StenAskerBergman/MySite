@@ -1,0 +1,34 @@
+Stenbergman.se 2.2.2 Roadmap & Patchnotes
+----------------------------------------------------------------------------------
+
+Phase 1 is complete, Pages has been decided
+Phase 1.5 is complete the page content has been decided and guidelines are formed
+Phase 2.0 <- Create content to fill, Decided what kind of kind of content is needed
+Phase 2.5 Test the Live Que System and Functioning Contact System
+
+----------------------------------------------------------------------------------
+( Phase.Feature.Number of Bugs/Hotfixes)
+1.0.0 = ( Phase 1. feature nr atm Zero . 0 Bugs/Hotfixes)
+Creating A Customer Que System
+1.0.0
+1. Fixed Setup a test enviorment
+2. Fixed Use Pages for free host
+3. Fixed Setup a domain name
+
+1.5.0
+1.5.0 Content Guide / Style done
+1.5.0 Code for Posts Done
+
+2.0.0
+2.0.0 Code for About Page Done 
+2.1.2 New post up <------------------ Current Progress!
+2.2.0 New post up
+2.3.0 New posts up
+2.3.0 New casestudy up
+
+
+1. Setup Que Test
+2. Run Live
+
+
+----------------------------------------------------------------------------------
