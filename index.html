@@ -241,7 +241,7 @@
                   <div class="container">
                     <!-- Post Row 1 -->
                     <div class="row">
-
+                      <!-- Post 1 -->
                       <div class="col-md-4">
                           <div id="boxy">
                             <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.location.href='Pages/A4.html'">
@@ -260,8 +260,9 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="col-md-4">
+                      </div>
+                        <!-- Post 2 -->
+                      <div class="col-md-4">
                               <div id="boxy">
                                 <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.location.href='Pages/A4.html'">
                                   <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
@@ -275,11 +276,12 @@
                                           <!--  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
                                         </div>
                                         <small class="text-muted">9 mins</small>
-                                      </div>
                                     </div>
                                   </div>
-                                </div>
                               </div>
+                          </div>
+                      </div>
+                      <!-- Post 3 -->
                       <div class="col-md-4">
                           <div id="boxy">
                             <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.location.href='Pages/A4.html'">
@@ -303,92 +305,72 @@
                         </div>
                       </div>
                     </div>
+                  </div>
 
-          </div>
-         </div>
-        </div>
+
       <!--php // Second page - Contact -->
          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <div class="container p-3 my-3">
                <!-- content -->
                <div class="row">
-                  <div class="col-7-md">
-                    <div>
-                      <h3>Hi, I don't think we have met!</h1><h4> <br>
+                 <!-- First Col -->
+                  <div class="col-7">
+                    <style media="screen">
+                      .img-fluid{
+                       max-width: 50%;
+                       height: auto;
+                     }
+                     img {
+                            image-orientation: from-image;
+                        }
+                    </style>
+                    <img src="img/Sten.jpg/convert?rotate=exif" class="img-fluid" alt="Responsive image">
+                      <h3>Hi, I don't think we have met!</h3><h4> <br>
                       Do you have time for a virtual coffee? ☕ <br><br>
                       I would be Awesome! If I could get to know you better! 😊<br><br>
                     </h4>
                   </div>
-                  </div>
+               <!-- Second Col -->
+                    <div class="col-5">
+                        <!-- List Title: ATTENTION h2 not h3 -->
+                        <h3>Here Are My Socials!</h3>
+                         <!-- socials lists start -->
+                           <ul style="list-style-type: none;">
+                             <!-- Random Style for some weird reason?? -->
+                             <style media="screen">
+                               li{
+                                 padding: 0.5em;
+                               }
+                             </style>
+                             <!-- Here is were my socials are should align to a side -->
+                                 <li><a href="https://www.linkedin.com/in/stenaskerbergman/"><button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button></a></li>
+                                 <li><a href="https://dribbble.com/"><button type="button" class="btn btn-sm btn-outline-secondary">Dribbble</button></a></li>
+                                 <li><a href="https://www.facebook.com/profile.html?id=100012699664738&sk=archive"><button type="button" class="btn btn-sm btn-outline-secondary">Facebook</button></a></li>
+                                 <li><a href="mailto:stenaskerbergman@gmail.com"><button type="button" class="btn btn-sm btn-outline-secondary">Email</button></a></li>
+                                 <li><a onclick="copyu()" value="nets#2628" id="myInput" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Click Here, to Copy my User Name!"><button type="button" class="btn btn-sm btn-outline-secondary">Discord</button></a></li>
 
-               </div>
-               <div class="col-5-md">
+                             <!-- Copy Paste Code -->
+                               <script>
+                                 function copyu() {
+                                   var copyText = document.getElementById("myInput");
+                                   copyText.select();
+                                   copyText.setSelectionRange(0, 99999)
+                                   document.execCommand("copy");
+                                   alert("Copied the text: " + copyText.value);
+                                 }
 
-                   <h2>Here Are My Socials!</h2>
-                   <ul style="list-style-type: none;">
-                     <style media="screen">
-                       li{
-                         padding: 0.5em;
-                       }
-                     </style>
-                     <li><a href="https://www.linkedin.com/in/stenaskerbergman/"><button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button></a></li>
-                     <li><a href="https://dribbble.com/"><button type="button" class="btn btn-sm btn-outline-secondary">Dribbble</button></a></li>
-                     <li><a href="https://www.facebook.com/profile.html?id=100012699664738&sk=archive"><button type="button" class="btn btn-sm btn-outline-secondary">Facebook</button></a></li>
-                     <li><a href="mailto:stenaskerbergman@gmail.com"><button type="button" class="btn btn-sm btn-outline-secondary">Email</button></a></li>
-                     <li><a onclick="copyu()" value="nets#2628" id="myInput" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Click Here, to Copy my User Name!"><button type="button" class="btn btn-sm btn-outline-secondary">Discord</button></a></li>
-
-
-                     <script>
-                     function copyu() {
-                       var copyText = document.getElementById("myInput");
-                       copyText.select();
-                       copyText.setSelectionRange(0, 99999)
-                       document.execCommand("copy");
-                       alert("Copied the text: " + copyText.value);
-                     }
-
-                     $('.popover-dismiss').popover({
-                       trigger: 'focus'
-                     })
-                     </script>
-                   </ul>
-
-                 </div>
-                 <script type="text">
-                   /*
-                   <div class="col-12">
-                     <form href="mailto:stenaskerbergman@gmail.com" action="mailto:stenaskerbergman@gmail.com" aria-describedby="Email Form to contact me thru!">
-                       <div class="form-row">
-                         <div class="form-group col-md-5">
-                            <label for="inputEmail4">Email</label>
-                              <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
-
-                         </div>
-                         <div class="form-group col-md-3">
-                           <label for="inputPassword4">Name</label>
-                           <input type="text" class="form-control" id="inputName4" placeholder="Your name">
-                         </div>
-                         </div>
-                         <div class="form-group col-md-8"  style="padding:0em;">
-                           <label for="exampleInputPassword1">Message</label>
-                           <textarea rows="6" class="form-control" placeholder="Let me know how can I help you?"></textarea>
-                         </div>
-                          <div class="form-row">
-                            <div class="form group col-md-3">
-
-
-                            <button type="submit" class="btn btn-primary">Send</button></div>
-                            <small id="emailHelp" class="form-text text-muted"> I'll never share your email or details with anyone else .</small>
-
+                                 $('.popover-dismiss').popover({
+                                   trigger: 'focus'
+                                 })
+                               </script>
+                             </ul>
+                            </div>
+                           </div>
                           </div>
-                        </form>
-                   </div>
-                 </script>
-                 <div class="col">
-
-                 </div>
-               </div>
-            </div>
-         </div>
-   </body>
-</html>
+                         </div>
+                        </div>
+                       </div>
+                      </div>
+                     </div>
+                    </body>
+                   </html>
