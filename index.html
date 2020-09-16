@@ -325,34 +325,66 @@
                <div class="row">
                  <div class="col">
 
+                   <h2>Here Are My Socials!</h2>
+                   <ul style="list-style-type: none;">
+                     <style media="screen">
+                       li{
+                         padding: 0.5em;
+                       }
+                     </style>
+                     <li><a href="https://www.linkedin.com/in/stenaskerbergman/"><button type="button" class="btn btn-sm btn-outline-secondary">Linkedin</button></a></li>
+                     <li><a href="https://dribbble.com/"><button type="button" class="btn btn-sm btn-outline-secondary">Dribbble</button></a></li>
+                     <li><a href="https://www.facebook.com/profile.html?id=100012699664738&sk=archive"><button type="button" class="btn btn-sm btn-outline-secondary">Facebook</button></a></li>
+                     <li><a href="mailto:stenaskerbergman@gmail.com"><button type="button" class="btn btn-sm btn-outline-secondary">Email</button></a></li>
+                     <li><a onclick="copyu()" value="nets#2628" id="myInput" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Click Here, to Copy my User Name!"><button type="button" class="btn btn-sm btn-outline-secondary">Discord</button></a></li>
+
+
+                     <script>
+                     function copyu() {
+                       var copyText = document.getElementById("myInput");
+                       copyText.select();
+                       copyText.setSelectionRange(0, 99999)
+                       document.execCommand("copy");
+                       alert("Copied the text: " + copyText.value);
+                     }
+
+                     $('.popover-dismiss').popover({
+                       trigger: 'focus'
+                     })
+                     </script>
+                   </ul>
+
                  </div>
-                 <div class="col-12">
-                   <form href="mailto:stenaskerbergman@gmail.com" action="mailto:stenaskerbergman@gmail.com" aria-describedby="Email Form to contact me thru!">
-                     <div class="form-row">
-                       <div class="form-group col-md-5">
-                          <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
+                 <script type="text">
+                   /*
+                   <div class="col-12">
+                     <form href="mailto:stenaskerbergman@gmail.com" action="mailto:stenaskerbergman@gmail.com" aria-describedby="Email Form to contact me thru!">
+                       <div class="form-row">
+                         <div class="form-group col-md-5">
+                            <label for="inputEmail4">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="Your Email">
 
-                       </div>
-                       <div class="form-group col-md-3">
-                         <label for="inputPassword4">Name</label>
-                         <input type="text" class="form-control" id="inputName4" placeholder="Your name">
-                       </div>
-                       </div>
-                       <div class="form-group col-md-8"  style="padding:0em;">
-                         <label for="exampleInputPassword1">Message</label>
-                         <textarea rows="6" class="form-control" placeholder="Let me know how can I help you?"></textarea>
-                       </div>
-                        <div class="form-row">
-                          <div class="form group col-md-3">
+                         </div>
+                         <div class="form-group col-md-3">
+                           <label for="inputPassword4">Name</label>
+                           <input type="text" class="form-control" id="inputName4" placeholder="Your name">
+                         </div>
+                         </div>
+                         <div class="form-group col-md-8"  style="padding:0em;">
+                           <label for="exampleInputPassword1">Message</label>
+                           <textarea rows="6" class="form-control" placeholder="Let me know how can I help you?"></textarea>
+                         </div>
+                          <div class="form-row">
+                            <div class="form group col-md-3">
 
 
-                          <button type="submit" class="btn btn-primary">Send</button></div>
-                          <small id="emailHelp" class="form-text text-muted"> I'll never share your email or details with anyone else .</small>
+                            <button type="submit" class="btn btn-primary">Send</button></div>
+                            <small id="emailHelp" class="form-text text-muted"> I'll never share your email or details with anyone else .</small>
 
-                        </div>
-                      </form>
-                 </div>
+                          </div>
+                        </form>
+                   </div>
+                 </script>
                  <div class="col">
 
                  </div>
