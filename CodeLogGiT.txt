@@ -109,3 +109,70 @@ Prototyping Post
        </form>
   </div>
 -->
+
+DEBUG fudge this below, the animations exit shadow doesn't work(plays twice on different blocks) and I got no clue why
+<div class="row">
+  <br>
+  <h3>My Projects</h3>
+  <br>
+</div>
+<br>
+<div class="row">
+  <!-- Post 1 -->
+  <div class="col-md-4">
+    <div id="boxy">
+      <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.location.href='Pages/A4.html'">
+          <img src="img\RB.png" class="card-img-top" alt="test2" fill="#303030">
+        <div class="card-body">
+          <p class="card-title"><h2>User Centered Design</h2></p>
+          <p class="card-text">Enchanting a Game Experience for Players with Mindblowing Design</p>
+          <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-md btn-outline-secondary" onclick="window.location.href='Pages/A4.html'">View</button>
+                <!--  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+              </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Post 2 -->
+  <div class="col-md-4">
+      <div id="boxy">
+        <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.location.href='Pages/Vimla.html'">
+            <img src="img\VT.png" class="card-img-top" alt="Green image" fill="#303030">
+            <div class="card-body">
+              <p class="card-title"><h2>Hidden UX</h2></p>
+              <p class="card-text">The UX that Matters usually is unseen and unthanked...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-md btn-outline-secondary" onclick="window.location.href='Pages/Vimla.html'">View</button>
+                  <!--  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <!-- Post 3 -->
+  <div class="col-md-4">
+      <div id="boxy">
+        <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.location.href='Pages/Vimla.html'">
+            <img src="img\VT.png" class="card-img-top" alt="Green image" fill="#303030">
+            <div class="card-body">
+              <p class="card-title"><h2>New Possibilites Interface</h2></p>
+              <p class="card-text">This Brief was about redefining the current phone experience and explore the new capabilites of vimla!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-md btn-outline-secondary" onclick="window.location.href='Pages/Vimla.html'">View</button>
+                  <!--  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
